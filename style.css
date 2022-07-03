@@ -1,0 +1,85 @@
+body{
+    color: black;
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+td, th{
+    padding: 5px;
+}
+
+th {
+    background: #1c1919;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #cecbd5;
+}
+
+tr:nth-child(odd) {
+    background: #f1e1e1;
+}
+
+button, input[type=submit] {
+    background-color: #00a769;
+    color: white;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+.marginbottom{
+    margin-bottom: 10px;
+}
+
+#user{
+    display: block;
+    margin: 20px 20px;
+}
+
+#admin{
+    display: none;
+    margin: 20px 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 30px;
+}
+
+#nav{
+    height: 40px;
+    background: #1c1919;
+    color: white;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#userbutton{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#adminbutton{
+    padding: 10px;
+    background-color: #1c1919;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+}
